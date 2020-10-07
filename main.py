@@ -42,6 +42,8 @@ k_help = '''- k.version (k.ver)
 - k.info
   Shows the amount of registered guilds and users
 
+the bot is now open source: https://github.com/NikitiX/kfunbot-source
+
 '''
 
 k_help_dev = '''- k.maintenance
@@ -87,13 +89,15 @@ You go through the territory full of mines, counting the numbers. You can count 
 Once you surpass the mine, the guild gets some amount of coins (2 for first mine, +1 for each next). Guild loses 1 coin when blowing up.
 You can buy the jetpack for 200 coins to make your attack even easier.```'''
 
-version = '''kernel's fun bot, version: `Pre-Release 0.3.2`
+version = '''kernel's fun bot, version: `Release 1.0.0`
 changes:
 ```DTTM:
 - "power" technique to make the game easier
 - guild's coins implementation
 - life saver
-- jetpack```'''
+- jetpack
+
+the bot is now open source - https://github.com/NikitiX/kfunbot-source```'''
 
 class Settings:
     BOOLEAN = {'true': True, 'false': False}
